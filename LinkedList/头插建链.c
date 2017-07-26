@@ -12,6 +12,7 @@ LinkList Creat_H(LinkList &L){
         s->data=x;
         s->next=L->next;
         L->next=s;
+        scanf("%d",&x);
     }
     return L;
 }
