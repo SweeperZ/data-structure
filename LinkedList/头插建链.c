@@ -1,4 +1,4 @@
-//ÄæÏò½¨Á´£¬Ã¿´Î¶¼ÔÚ±íÍ·µÄºó¼ÌÎ»ÖÃ²åÈëĞÂ½áµã
+//é€†å‘å»ºé“¾ï¼Œæ¯æ¬¡éƒ½åœ¨è¡¨å¤´çš„åç»§ä½ç½®æ’å…¥æ–°ç»“ç‚¹
 //
 
 LinkList Creat_H(LinkList &L){
@@ -6,7 +6,7 @@ LinkList Creat_H(LinkList &L){
     int x;
     L=(LinkList)malloc(sizeod(LNode));
     L->next=NULL;
-    scanf("%d",x);
+    scanf("%d",&x);
     while(x!=9999){
         s=(LNode *)malloc(sizeof(LNode));
         s->data=x;
