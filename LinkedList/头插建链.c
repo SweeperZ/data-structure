@@ -1,7 +1,7 @@
 //逆向建链，每次都在表头的后继位置插入新结点
 //
 
-LinkList Creat_H(LinkList &L){
+LinkList Create_H(LinkList &L){
     LNode *s;
     int x;
     L=(LinkList)malloc(sizeod(LNode));
