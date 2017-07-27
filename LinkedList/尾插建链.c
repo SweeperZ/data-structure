@@ -1,7 +1,7 @@
-//ÕıÏò½¨Á´£¬Ã¿´ÎÔÚ±íÎ²²åÈëĞÂ½áµã
+//æ­£å‘å»ºé“¾ï¼Œæ¯æ¬¡åœ¨è¡¨å°¾æ’å…¥æ–°ç»“ç‚¹
 //
 
-LinkList Creat_R(LinkList &L){
+LinkList Create_R(LinkList &L){
     int x;
     L=(LinkList)malloc(sizeof(LNode));
     LNode *s,*r=L;
