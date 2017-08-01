@@ -1,5 +1,5 @@
-//��ͷ���ĵ�����L
-//��β��ͷ�������ÿ������ֵ
+//带头结点的单链表L
+//从尾到头反向输出每个结点的值
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -27,10 +27,10 @@ LinkList Creat_R(LinkList L){
 
 void R_Print(LinkList L){           //
     if(L->next)
-        R_Print(L->next);           //�ݹ飬����ݹ������⣬ÿ���������ܻ��һ��
-    printf("\t%d\n",L->data);       //������һ�����ֵ
-}                                   //����£���ͷ����
-
+        R_Print(L->next);           //递归，这个递归有问题，每次输出结果总会多一行
+    printf("\t%d\n",L->data);       //内容是一个随机值
+}                                   //标记下，回头来改
+                                    //----------------问题出在头结点上，这里的随机值是头结点中的值
 int main(void)
 {
     LinkList L;int x;
@@ -42,7 +42,7 @@ int main(void)
         printf("\n p->data=%d\n ",p->data);
         p=p->next;
     }
-    printf("\n���ý��Ϊ��\n");
+    printf("\n逆置结果为：\n");
 
     R_Print(L);
 
