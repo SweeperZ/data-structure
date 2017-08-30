@@ -20,5 +20,5 @@ void CreatCSTree(CSTree &T£¬int e[],int degree[,int n]){
         }
     }
     T=pointer[0];
-    delete [] pointer;
+    delete [] pointer;//
 }
