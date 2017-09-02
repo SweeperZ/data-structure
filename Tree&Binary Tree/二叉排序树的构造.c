@@ -1,3 +1,5 @@
+//二叉排序树的构造
+
 void Creat_BST(BiTree &T,int str[],int n){
     T=NULL;
     int i=0;
