@@ -1,3 +1,4 @@
+//
 int BST_Insert(BiTree &T,int k){
     if(T==NULL){
         T=(BiTree)malloc(sizeof(BSTNode));
