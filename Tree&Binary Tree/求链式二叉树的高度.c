@@ -26,12 +26,15 @@ int Btdepth(BiTree T){
 //µİ¹é
 
 int Btdepth(BiTree T){
+    
     if(T==NULL)
         return 0;
+
     ldep=Btdepth(T->lchild);
     rdep=Btdepth(T->rchild);
+    
     if(ldep>rdep)
         return ldep+1;
-    else
+    else  
         return rdep+1;
 }
