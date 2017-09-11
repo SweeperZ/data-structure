@@ -37,7 +37,7 @@ void Ancestor(BiTree ROOT,BiTNode *p,BiTNode *q){
 
         if(top){
             s[top].tag=1;
-            b=s[top].t->rchild;                 //右子树
+            b=s[top].t->rchild;                 //处理右子树
         }
     }
     return NULL;
