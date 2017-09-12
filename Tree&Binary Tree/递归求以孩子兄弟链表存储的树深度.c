@@ -1,6 +1,5 @@
 //递归求以孩子兄弟链表存储的树深度
 
-
 int Height(CSTree b){
     int hc,hs;
     if(!b)
